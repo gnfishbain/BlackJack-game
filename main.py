@@ -1,5 +1,7 @@
-############### Blackjack Project #####################
-#Writing some stuff inside the code to use for git
+#created by gal nahum fishbain - project at 100 days of code - course
+
+#adding spaces for git changes
+
 ############### Our Blackjack House Rules #####################
 
 ## The deck is unlimited in size. 
@@ -15,6 +17,8 @@ import random
 from replit import clear
 from logo import logo
 
+
+
 def deal_card():
   """Returns a random card from the deck."""
   cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
@@ -22,12 +26,16 @@ def deal_card():
   return card
 
 
+
 def calculate_score(cards):
   """Take a list of cards and return the score calculated from the cards"""
+
+
 
   #check for a blackjack (a hand with only 2 cards: ace + 10) and return 0 instead of the actual score. 0 will represent a blackjack in our game.
   if sum(cards) == 21 and len(cards) == 2:
     return 0
+
 
   #Inside calculate_score() check for an 11 (ace). If the score is already over 21, remove the 11 and replace it with a 1. You might need to look up append() and remove().
   if 11 in cards and sum(cards) > 21:
