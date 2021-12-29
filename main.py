@@ -1,14 +1,15 @@
-#created by gal nahum fishbain - project at 100 days of code - course
 
-#adding spaces for git changes
 
-############### Our Blackjack House Rules #####################
 
-## The deck is unlimited in size. 
-## There are no jokers. 
 ## The Jack/Queen/King all count as 10.
-## The the Ace can count as 11 or 1.
+#created by gal nahum fishbain - project at 100 days of code - course
+############### Our Blackjack House Rules #####################
 ## Use the following list as the deck of cards:
+
+## There are no jokers. 
+#adding spaces for git changes
+## The the Ace can count as 11 or 1.
+## The deck is unlimited in size. 
 
 import random
 from replit import clear
