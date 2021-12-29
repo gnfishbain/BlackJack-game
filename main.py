@@ -1,8 +1,10 @@
+
+
+
+## The Jack/Queen/King all count as 10.
 #created by gal nahum fishbain - project at 100 days of code - course
-
-#adding spaces for git changes
-
 ############### Our Blackjack House Rules #####################
+<<<<<<< HEAD
 ## cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 ## The cards in the list have equal probability of being drawn.
 ## Cards are not removed from the deck as they are drawn.
@@ -44,10 +46,14 @@ def calculate_score(cards):
   return sum(cards)
 
 e deck is unlimited in size. 
-## There are no jokers. 
-## The Jack/Queen/King all count as 10.
-## The the Ace can count as 11 or 1.
+=======
 ## Use the following list as the deck of cards:
+
+>>>>>>> branch_1
+## There are no jokers. 
+#adding spaces for git changes
+## The the Ace can count as 11 or 1.
+## The deck is unlimited in size. 
 
 import random
 from replit import clear
